@@ -1,0 +1,6 @@
+<settings>
+	<category label="Settings">
+		<setting id="enable_meta" type="bool" label="Enable Metadata" default="true"/>
+	</category>
+	
+</settings>

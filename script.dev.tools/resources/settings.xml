@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30001">
+		<setting id="password" default="0000" visible="false" />
+		<setting id="localpassword" default="true" visible="false" />
+		<setting id="xxxon" label="30004" type="action" action="RunScript(special://home/addons/script.dev.tools/default.py,on)" />
+		<setting id="xxxoff" label="30005" type="action" action="RunScript(special://home/addons/script.dev.tools/default.py,off)" />
+	</category>
+</settings>

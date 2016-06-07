@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="30000">Development Tools</string>
+	<string id="30001">Settings</string>
+	<string id="30002">Password</string>
+	<string id="30313">Done</string>
+	<string id="30003">Development Tools</string>
+	<string id="30004">[COLOR green][Enable][/COLOR] Development Tools</string>
+	<string id="30005">[COLOR red][Disable][/COLOR] Development Tools</string>
+	<string id="30006">Enabled</string>
+	<string id="30007">Disabled</string>
+	<string id="30008">Wrong Password</string>
+	<string id="30009">Nothing Changed</string>
+</strings>

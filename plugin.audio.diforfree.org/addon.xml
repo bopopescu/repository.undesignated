@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<addon
+        id="plugin.audio.diforfree.org" 
+        name="Digitally Imported For Free" 
+        version="1.0.0" 
+        provider-name="undesignated">
+		<requires>
+			<import addon="xbmc.python"             	version="2.1.0"/>
+			<import addon="xbmc.addon"              	version="12.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Digitally Imported For Free</summary>
+			<description lang="en">Listen to Digitally Imported radio</description>
+			<platform>all</platform>
+			<language>en</language>
+			<license>GPLv3</license>
+			<forum></forum>
+			<email></email>
+			<disclaimer lang="en">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</disclaimer>
+		</extension>
+	</addon>

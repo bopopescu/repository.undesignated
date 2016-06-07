@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon
+        id="plugin.audio.diforfree.org"
+        name="Digitally Imported For Free"
+        version="1.0.0"
+        provider-name="undesignated">
+		<requires>
+			<import addon="xbmc.python"             	version="2.1.0"/>
+			<import addon="xbmc.addon"              	version="12.1.0"/>
+		</requires>
+		<extension point="xbmc.python.pluginsource" library="default.py">
+			<provides>audio</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Digitally Imported For Free</summary>
+			<description lang="en">Listen to Digitally Imported radio</description>
+			<platform>all</platform>
+			<language>en</language>
+			<license>GPLv3</license>
+			<forum></forum>
+			<email></email>
+			<disclaimer lang="en">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</disclaimer>
+		</extension>
+	</addon>
+
+<addon
+	id="plugin.video.imoviemax"
+	name="imoviemax.se"
+	version="1.0.0"
+	provider-name="undesignated">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Free content from imoviemax.se</summary>
+    <description lang="en">Stream free content from imoviemax.se</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+	id="repository.undesignated"
+	name="undesignated Add-on repository"
+	version="1.0.0"
+	provider-name="undesignated">
+	<extension point="xbmc.addon.repository" name="undesignated Add-on repository">
+		<dir>
+			<info compressed="false">http://raw.github.com/undesignated/repository.undesignated/master/addons.xml</info>
+			<checksum>http://raw.github.com/undesignated/repository.undesignated/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.github.com/undesignated/repository.undesignated/master/zips</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install Add-ons from undesignated</summary>
+		<description lang="en">Download and install add-ons.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon
+	id="script.dev.tools"
+	name="Development Tools"
+	version="1.0.0"
+	provider-name="undesignated">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.service" library="service.py" start="login" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Development Tools</summary>
+		<description lang="en">A collection of development tools for use with Kodi.</description>
+		<platform>all</platform>
+		<language>en</language>
+		<license>GPLv3</license>
+		<forum></forum>
+		<email></email>
+		<disclaimer lang="en">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.</disclaimer>
+	</extension>
+</addon>
+</addons>
